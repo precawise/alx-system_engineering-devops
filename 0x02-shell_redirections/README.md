@@ -1,77 +1,53 @@
-File 0- prints “Hello, World”, followed by a new line to the standard output.
+0-hello_world: script that prints “Hello, World”, followed by a new line to the standard output
 
+1-confused_smiley: script that displays a confused smiley
 
+2-hellofile: script to display the content of /etc/passwd
 
-File 1-listit displays the contents list of the current directory.
+3-twofiles: script to display the content of /etc/passwd and /etc/hosts
 
+4-lastlines: script to display the last 10 lines of /etc/passwd
 
+5-firstlines: script to display the first 10 lines of /etc/passwd
 
-File 2-bring_me_home changes the working directory to the user’s home directory.
+6-third_line: script that displays the third line of the file iacta
 
+8-cwd_state: script that writes into the file ls_cwd_content the result of the command ls -la
 
+7-file: script that creates a file named exactly *\'"Holberton School"'\*$?*****:)
 
-File 3-listfiles displays current directory contents in a long format.
+9-duplicate_last_line: script that duplicates the last line of the file iacta
 
+10-no_more_js: script that deletes all the regular files (not the directories) with a .js
 
+11-directories: script that counts the number of directories and sub-directories
 
-File 4-listmorefiles displays current directory contents, including hidden files (starting with .).
+12-newest_files: script that displays the 10 newest files in the current directory
 
+13-unique: script that takes a list of words as input and prints only words that appear exactly once
 
+14-findthatword: script that displays lines containing the pattern “root” from the file /etc/passwd
 
-File 5-listfilesdigitonly displays current directory contents in long format, with user and group IDs displayed numerically and hidden files.
+15-countthatword: script to display the number of lines that contain the pattern “bin” in the file /etc/passwd
 
+16-whatsnext: script to display lines containing the pattern “root” and 3 lines after them in the file
 
+17-hidethisword: script to display all the lines in the file /etc/passwd that do not contain the pattern “bin”
 
-File 6-firstdirectory creates a script that creates a directory named my_first_directory in the /tmp/ directory.
+18-letteronly: script to display all lines of the file /etc/ssh/sshd_config starting with a letter
 
+19-AZ: script to replace all characters A and c from input to Z and e respectively
 
+20-hiago: script that removes all letters c and C from input
 
-File 7-movethatfile moves the file betty from /tmp/ to /tmp/my_first_directory.
+21-reverse: script that reverse its input
 
+22-users_and_homes: script that displays all users and their home directories, sorted by users
 
+100-empty_casks: script that finds all empty files and directories in the current directory and all sub-directories
 
-File 8-firstdelete deletes the file betty.
+101-gifs: script that lists all the files with a .gif extension in the current directory and its sub-directories
 
+102-acrostic: script that decodes acrostics that use the first letter of each line
 
-
-File 9-firstdirdeletion deletes the directory my_first_directory that is in the /tmp directory.
-
-
-
-File 10-back writes a script that changes the working directory to the previous one.
-
-
-
-File 11-lists writes a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
-
-
-
-File 12-file_type writes a script that prints the type of the file named iamafile.
-
-
-
-File 13-symbolic_link creates a symbolic link to /bin/ls, named ls.
-
-
-
-File 14-copy_html creates a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
-
-
-
-File 100-lets_move creates a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
-
-
-
-File 101-clean_emacs creates a script that deletes all files in the current working directory that end with the character ~.
-
-
-
-File 102-tree creates a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
-
-
-
-File 103-commas writes a command that lists all the files and directories of the current directory, separated by commas (,).
-
-
-
-File school.mgc a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+103-the_biggest_fan: script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses
